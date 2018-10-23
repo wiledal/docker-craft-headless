@@ -1,5 +1,7 @@
-<h1 align="center" style="font-size:56px; border-bottom: none;">Docker + Craft 3 + Headless</h1>
-<p align="center" style="font-size: 42px; margin-bottom: 80px;">🐋📝³🚫😶</p>
+<h1 align="center" style="font-size:56px; border-bottom: none;">
+  Docker + Craft 3 + Headless<br><br>
+  🐋📝³🚫😶
+</h1>
 
 ## What
 A boilerplate docker-compose setup.
