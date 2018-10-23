@@ -20,7 +20,7 @@ Craft 3 is a neat CMS. It's as if WordPress and all of the plugins that make Wor
 ## Setup
 To set up the containers and install all dependencies, run the following
 ```sh
-docker-compose up; docker-compose run app bash -c "composer install"; docker-compose exit;
+docker-compose run app bash -c "composer install"; docker-compose down;
 ```
 
 ## Run
