@@ -1,10 +1,30 @@
-<h1 align="center">Headless Craft 3</h1>
+<h1 align="center" style="font-size:56px; border-bottom: none;">Docker + Craft 3 + Headless</h1>
+<p align="center" style="font-size: 42px; margin-bottom: 80px;">🐋📝³🚫😶</p>
 
-## Install
+## What
+A boilerplate docker-compose setup.
+
+- Based on the `php:7-apache` image
+- Preinstalling `composer`
+- Setting up some php extensions and adding optimizations for `Craft` runtime
+- Including two plugins for `headless`
+- One line setup 🚀
+
+## Why
+Craft 3 is a neat CMS. It's as if WordPress and all of the plugins that make WordPress useful had a combined baby together.
+
+## Setup
 To set up the containers and install all dependencies, run the following
 ```sh
-docker-compose up; docker-compose run web bash -c "composer install"; docker-compose exit;
+docker-compose up; docker-compose run app bash -c "composer install"; docker-compose exit;
 ```
 
-Then navigate to
-http://localhost:8080/admin/install, follow the instructions
+## Run
+Start app and db with
+```sh
+docker-compose up
+```  
+
+#### First time run
+Navigate to
+http://localhost:8080/admin/install, follow the instructions.
