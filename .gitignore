@@ -1,0 +1,8 @@
+app/vendor
+db
+.DS_Store
+app/web/**/*
+!app/web/cpresources
+!app/web/.htaccess
+!app/web/index.php
+!app/web/web.config
