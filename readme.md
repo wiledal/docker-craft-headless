@@ -1,10 +1,11 @@
 <h1 align="center" style="font-size:56px; border-bottom: none;">
-  Docker + Craft 3 + Headless<br><br>
+  Docker + Craft 3 + Headless
+  <br><br>
   🐋📝³🚫😶
+  <br><br>
 </h1>
-
+> A boilerplate docker-compose setup.
 ## What
-A boilerplate docker-compose setup.
 
 - Based on the `php:7-apache` image
 - Preinstalling `composer`
