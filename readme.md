@@ -4,9 +4,9 @@
   🐋📝³🚫😶
   <br><br>
 </h1>
-> A boilerplate docker-compose setup.
-## What
+> A boilerplate docker-compose project
 
+## Includes
 - Based on the `php:7-apache` image
 - Preinstalling `composer`
 - Setting up some php extensions and adding optimizations for `Craft` runtime
