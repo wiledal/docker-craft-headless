@@ -21,5 +21,5 @@ RUN a2enmod rewrite expires headers;
 
 # Make better memory limit
 RUN { \
-		echo 'memory_limit = 1024M\nmax_input_vars = 8192\npost_max_size = 256M'; \
+		echo 'memory_limit = 1024M\nmax_input_vars = 8192\npost_max_size = 256M\nupload_max_filesize = 256M'; \
 	} > /usr/local/etc/php/conf.d/craft-optimized.ini
