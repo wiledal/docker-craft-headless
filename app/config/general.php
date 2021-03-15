@@ -22,6 +22,9 @@ return [
 
         // Control Panel trigger word
         'cpTrigger' => 'admin',
+        
+        // Set preview duration length to 1w
+        'defaultTokenDuration' => 604800,
 
         // The secure key Craft will use for hashing and encrypting data
         'securityKey' => getenv('SECURITY_KEY'),
